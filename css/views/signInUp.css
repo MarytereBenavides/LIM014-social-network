@@ -1,0 +1,120 @@
+.container{
+    display:grid;
+    height: 89vh;
+    grid-template-columns: 1fr;
+    background-color: var(--white);
+    justify-items: center;
+    align-items: center;
+    padding:0.1rem;
+    justify-self: stretch;
+    border-radius: 5px;
+    margin: 2.1rem;
+}
+.container-signIn{
+    grid-template-rows: 1fr 0.6fr 0.25fr 0.6fr 0.3fr;
+}
+
+.container-signUp{
+    grid-template-rows: 0.6fr 1fr 0.6fr 0.25fr ;
+}
+
+.signIn-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.8rem;
+}
+/* inputs  */
+.signInUp-input{
+    display: flex;
+    flex-direction: column;
+}
+.signIn-input{
+    gap:0.3rem;
+}
+.signUp-input{
+    gap:1rem;
+}
+.signInUp-input label {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.signInUp-input input{
+    border: none;
+    border-bottom: 1px solid rgb(95, 93, 93);
+    outline: none;
+}
+.signInUp-input p{
+   font-size: 12px;
+   color: red;
+   width: 200px;
+}
+.signInUp-input  p.errMessage{
+    font-size: 12px;
+    color: red;
+    width: 252px;
+ }
+
+/* signIn google */
+
+.signIn-google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.7rem;
+}
+.button-google{
+    transform: translateY(-0.5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.63);
+    border-radius: 50px;
+    cursor: pointer;
+}
+.button-google:active{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.buttonAllLogin{
+    background-color:var(--blue-dark);
+    color:var(--white);
+    width: 192px;
+    height: 36px;
+    border-radius: 30px;
+    border: 1px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    /* box-shadow: 0 3px #999; */
+}
+.buttonAllLogin:hover {
+    background-color:var(--blue-strongdark);
+    
+}
+
+.buttonAllLogin:active {
+    background-color:var(--blue-strongdark);
+  box-shadow: 0 1.5px #666;
+  transform: translateY(2px);
+    
+}
+.signInUp-buttonSignInUp{
+
+    color:black;
+}
+.signInUp-buttonSignInUp:hover{
+  text-shadow: -0.5px 0px black;
+ 
+}
+
+/* h1{
+    font-size: 1.75rem;
+} */
+.homeFunkOok{
+    display: none;
+}
+
+.wrong::placeholder{
+    color: rgb(255, 0, 0);
+}

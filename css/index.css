@@ -1,0 +1,37 @@
+    @import url('./variable.css');
+    @import url('./views/signInUp.css');
+    @import url('./views/header.css');
+    @import url('./views/home.css');
+    @import url('./views/posts.css');
+    @import url('./views/modalPost.css');
+    @import url('./views/webDesign.css');
+    
+    * {
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+    justify-items: center;
+  
+    }
+    
+    html{
+        font-size: 16px;
+        
+    }
+
+    body{
+        /* margin:0;
+        padding: 0; */
+        font-family: var(--roboto);
+        /* background-image:  radial-gradient(50% 50% at 50% 50%, #FFFFFF 63.02%, rgba(255, 255, 255, 0) 100%),
+        linear-gradient(0deg, #2987CC, #2987CC); */
+        /* background: rgb(14,11,177);
+background: linear-gradient(158deg, rgba(14,11,177,0.7847514005602241) 0%, rgba(17,17,121,1) 47%, rgba(43,43,243,0.40379901960784315) 100%); */
+        /* padding: 2.1rem; */
+    }
+    a{
+        text-decoration: none;
+        color: white;
+
+    }
+
